@@ -84,6 +84,7 @@ h3 {
 }
 
 nav a {
+  text-align: center;
   display: inline-block;
   padding-left: 15px;
   margin-left: 15px;
@@ -100,6 +101,12 @@ a:hover {
 
 nav a:first-child {
   border-left: 0 none;
+}
+
+.nav-container {
+  width: 100%;
+  margin: 0 auto;
+  clear: both;
 }
 
 /* footer */
